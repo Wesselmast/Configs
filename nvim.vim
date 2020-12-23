@@ -1,7 +1,6 @@
 call plug#begin("~/.vim/plugged")
   " Plugin Section
-  Plug 'xolox/vim-misc', {'as':'misc'}
-  Plug 'xolox/vim-easytags', {'as':'easytags'}
+  Plug 'octol/vim-cpp-enhanced-highlight', {'as':'highlight'}
   Plug 'dracula/vim', {'as':'dracula'}
   Plug 'neoclide/coc.nvim', {'branch':'release'}
 
@@ -16,7 +15,7 @@ set number
 set nohlsearch
 
 color dracula
-"syntax enable
+syntax enable
 
 let g:easytags_async = 1
 let g:easytags_always_enabled = 0
